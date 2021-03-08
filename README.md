@@ -1,1 +1,3 @@
-# faultdiagnosis_neuralODE
+# Fault diagnosis via Neural ODE
+
+This in an hydrib approach for fault diagnosis, using model and data-based methods combined, that enables to combine a natural deep learning technique with an estimated model of the system, making the training simpler and more efficient. For evaluation of this methodology, a nonlinear benchmark system is used by simulation of faults in actuators, sensors, and process. Simulation results show that the proposed methodology requires less processing for the training in comparison with conventional machine learning approaches since the data-set is directly taken from the measurements and inputs. Furthermore, since the model used in the essay is only a structural approximation of the plant; no advanced modeling is required. This approach can also alleviate some pitfalls of training data-series, such as complicated data augmentation methodologies and the necessity for big amounts of data.
